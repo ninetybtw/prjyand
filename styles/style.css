@@ -148,6 +148,7 @@
   flex-direction: column;
   gap: var(--gap-large);
   padding: 0 var(--gap-medium) var(--gap-large);
+  background-color: var(--bg-color);
 }
 
 .content-section {
@@ -266,8 +267,7 @@
 
   .gallery__grid {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.85fr 1.1fr 1.4fr;
-    aspect-ratio: 1.62 / 1;
+    grid-template-rows: 14.5vw 19vw 24vw;
   }
 
   .gallery__image {
