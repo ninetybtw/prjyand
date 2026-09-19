@@ -246,13 +246,14 @@
   }
 
   .content {
-    padding: 0 var(--gap-large) var(--gap-large);
+    padding: 0 var(--gap-medium) var(--gap-large);
     gap: 80px;
   }
 
   .content-section {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    column-gap: var(--gap-large);
   }
 
   .content-section_layout_columns .content-section__title,
@@ -267,7 +268,8 @@
 
   .gallery__grid {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 14.5vw 19vw 24vw;
+    grid-template-rows: 26vw 33.7vw 42.9vw;
+    gap: var(--gap-medium);
   }
 
   .gallery__image {
