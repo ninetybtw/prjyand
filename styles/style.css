@@ -251,17 +251,9 @@
     grid-template-columns: 1fr 2fr;
   }
 
-  .content-section__title {
-    max-inline-size: 236px;
-  }
-
   .content-section_layout_columns .content-section__title,
   .content-section_layout_columns .content-section__list {
     grid-column: 1 / -1;
-  }
-
-  .content-section_layout_columns .content-section__title {
-    max-inline-size: none;
   }
 
   .content-section_layout_columns .content-section__list {
