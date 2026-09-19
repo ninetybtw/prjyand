@@ -135,7 +135,9 @@
 
 .header__description {
   justify-self: start;
+  align-self: end;
   max-inline-size: 355px;
+  margin-block-end: 80px;
   font-weight: bold;
 }
 
