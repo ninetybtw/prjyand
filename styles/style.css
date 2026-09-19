@@ -23,14 +23,16 @@
 
 .link {
   text-shadow: 2px 2px 0 var(--accent-color);
-  text-decoration: none;
+  text-decoration: line-through;
 }
 
 .link:hover {
+  text-decoration: none;
   border-bottom: 1px solid currentColor;
 }
 
 .link:focus-visible {
+  text-decoration: none;
   outline: 1px solid currentColor;
 }
 
@@ -174,7 +176,7 @@
   font-weight: normal;
 }
 
-.card__title_accent {
+.card__title_type_bold {
   font-weight: bold;
 }
 
